@@ -3,3 +3,12 @@
     --amarelo: #facc15;
     --cinza: #f3f4f6;
 }
+
+body{
+    margin: 0;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: --var(--azul);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
